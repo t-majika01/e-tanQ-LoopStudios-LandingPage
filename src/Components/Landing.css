@@ -3,7 +3,7 @@
 /* Section 1 Styles */
 .section1{
     padding-top: 60px;
-    padding-bottom: 250px;
+    padding-bottom: 350px;
     background-image: url("../../public/images/image-hero.jpg");
 }
 
@@ -85,13 +85,13 @@
 
 .section3{
     padding: 60px 60px;
-    background-color: #FFBDF7;
+    background-color: #F9F5F6;
 }
 
 
 .btn-see{
     display: block;
-    margin: 30px auto;
+    margin: 50px auto;
     background-color: black;
     color: white;
     letter-spacing: 2px;
@@ -110,10 +110,12 @@
     font-size: 1.8rem;
     letter-spacing: 3px;
     font-weight: bold;
+    color: purple;
+    margin-bottom: 50px;
 }
 
 .sec3-desc{
-    color: #46458C;
+    color: purple;
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
