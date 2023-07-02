@@ -1,0 +1,25 @@
+/* Navbar styles */
+.my-nav{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.nav-link:hover{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.nav-brand-logo{
+    width: 100%;
+}
+
+.navbar-toggler{
+    background-color: white;
+}

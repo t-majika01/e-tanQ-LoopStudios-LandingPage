@@ -1,0 +1,163 @@
+/* Landing page styles */
+
+/* Section 1 Styles */
+.section1{
+    padding-top: 60px;
+    padding-bottom: 250px;
+    background-image: url("../../public/images/image-hero.jpg");
+}
+
+
+.my-heading{
+    color: lightgray;
+    letter-spacing: 3px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+/* Section 1 Styles */
+
+
+
+/* Section 2 styles */
+
+.section2{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.the-image-2{
+    margin: 80px auto;
+    padding: 10px 50px;
+}
+
+.my-image2{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+.my-col2-items{
+    text-align: center;
+    padding: 80px 50px;
+    margin-bottom: 30px;
+
+}
+
+.col2-head{
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.col2-p{
+    color: gray;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 767px){
+    .my-image2{
+        width: 70%;
+    }
+
+    .the-image-2{
+        margin-bottom: 20px;
+        margin-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .my-col2-items{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Section 2 styles */
+
+
+
+/* Section 3 styles */
+
+.section3{
+    padding: 60px 60px;
+    background-color: #FFBDF7;
+}
+
+
+.btn-see{
+    display: block;
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-see:hover{
+    color: gray;
+}
+
+.lbl-see{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.sec3-desc{
+    color: #46458C;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.myrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.image-box{
+    margin: 20px 20px;
+}
+
+.section3-images{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 3px 8px 10px black;
+}
+/* Section 3 styles */
+
+
+
+/* Last Section */
+.my-footer{
+    background-color: black;
+    padding: 30px;
+}
+
+.my-socials{
+    display: block;
+    margin: 10px auto;
+}
+
+.cp{
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+/* Last Section */
